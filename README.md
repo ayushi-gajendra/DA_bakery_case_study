@@ -1,5 +1,5 @@
-# 🥖 Bakery Sales Analysis: Market Validation Study
-### *Bridging Data Insights and Stakeholder Expectations*
+# 🥖 Strategic Market Analysis: South Korean Bakery Optimization
+### *Bridging Stakeholder Intuition with Data-Driven Reality*
 
 ![Data Analysis](https://img.shields.io/badge/Analysis-Data%20Analytics-blue)
 ![Business Intelligence](https://img.shields.io/badge/Domain-Business%20Intelligence-green)
@@ -8,81 +8,71 @@
 
 ---
 
-## 🎯 Project Overview
-This project is a **Market Validation Study** for a bakery in South Korea. The goal was to use real sales data to guide a new investor's strategy. 
+## 📖 Background & Business Case
+A South Korean bakery is currently courting a new investor. The investor, influenced by 1980s market trends, is convinced that **Croissants** are the only viable path to success and suggests basing the entire business model around them. 
 
-A key stakeholder was convinced that the business should focus almost entirely on **Croissants**. By analyzing over $2,400$ transaction records, I tested this theory against actual customer behavior to find the most profitable path forward.
-
----
-
-## 🛠️ The Business Problem
-As a consultant with an entrepreneurial background, I needed to solve three main issues:
-1. **Fact-Checking:** Was the investor's focus on croissants backed by data?
-2. **Growth:** Which products are the true "stars" that drive the most revenue?
-3. **Efficiency:** How can we change staffing and inventory to match peak "Rush Hours"?
+As a consultant with an entrepreneurial background, I recognized the need to validate this strategy. While stakeholder opinions are vital, basing a business on "gut feeling" introduces significant risk. I conducted this independent market investigation to determine if Croissants are truly the market leader or if a strategic pivot is required to maximize ROI.
 
 ---
 
-## ⚙️ Methodology: The Data Analytics Lifecycle
-I followed a structured $5$-step process to ensure the results were accurate and professional.
+## ⚙️ Methodology & Analytical Process
+I followed a structured 5-step lifecycle to turn raw transactional data into business strategy.
 
-### 1. Data Cleaning & Preparation
-I processed a raw dataset of $2,420$ transactions to make it "analysis-ready":
-* **Categorization:** Created new columns for `Food Items` and `Drinks` to analyze buying habits separately.
-* **Time Formatting:** Extracted `Hour` and `Day of Week` from timestamps to identify specific "Rush Hour" patterns.
+### 1. Data Integrity & Cleaning (Exercise 0)
+I verified the dataset scale to ensure statistical significance.
+* **Dataset Size:** 2,421 rows and 31 core features.
+* **Cleaning:** Segmented timestamps into hours and days to identify granular patterns.
 
-### 2. Time-Series Analysis (Operational Efficiency)
-I analyzed income trends to help the business plan for peak demand.
-* **Technique:** Used `SUMIF` and Pivot Tables to calculate total revenue per hour.
-* **Result:** Discovered that the "Golden Hour" for revenue is **$11:00$ AM**.
+### 2. Time Trend Analysis (Exercise 1)
+I analyzed revenue velocity to solve for operational efficiency.
+* **The "Golden Hour":** Revenue peaks at **11:00 AM** (Morning).
+* **Weekly Rhythm:** **Sunday** is the highest-grossing day, identifying the bakery as a weekend destination.
 
-### 3. Product Performance Audit
-I tested the investor's theory by ranking every menu item by total units sold.
-* **Technique:** Applied `COUNTIF` and volume-ranking to identify top-performing products.
-* **Result:** Proved that **Angbutter** is the true market leader, selling **$322\%$** more units than Croissants.
 
-### 4. Correlation & Mix Analysis
-I studied the relationship between food and beverage sales to find cross-selling opportunities.
-* **Technique:** Created a **$100\%$ Stacked Column Chart** to see how the "Product Mix" changes throughout the day.
-* **Result:** Found that drink sales proportions increase by approximately $60\%$ in the afternoon, identifying a prime window for beverage promotions.
 
-### 5. Insight Synthesis (Business ROI)
-The final step was translating "Numbers" into "Actions" regarding inventory, labor, and revenue growth.
+### 3. Product Market Fit (Exercise 2)
+I tested the investor's "Croissant-only" hypothesis against actual sales volume.
+* **The Reality:** **Angbutter** is the dominant bestseller with **3,229 units**, outperforming Croissants (1,049 units) by over 300%.
+* **Beverage Synergy:** **Hot Americanos** are the top-selling drink, acting as a critical "anchor" for breakfast orders.
+
+
+
+### 4. Hourly Sales Dynamics (Exercise 3)
+I analyzed the "Product Mix" to understand how consumer intent changes throughout the day.
+* **The Pivot:** Food sales show a **decreasing trend** as the day progresses, while drink sales proportions remain more stable.
+* **The Shift:** Drinks make up a higher percentage of the total basket in the afternoon compared to the morning rush.
+
+
 
 ---
 
 ## 📂 Data Reference
-**Data Source:** Modified version of the Bakery Sales dataset (Kaggle)
-- https://www.kaggle.com/datasets/hosubjeong/bakery-sales/data
+**Data Source:** Modified version of the Bakery Sales dataset (Kaggle).
 
-**Fields included in the dataset:**
-* **Temporal:** `datetime` (Order time), `day of week`, `year`, `month`, `day`, `hour`.
-* **Financial:** `total` (Purchase amount in Korean Won).
-* **Bakery Items:** Angbutter, Plain Bread, Jam, Croissant, Tiramisu Croissant, Cacao Deep, Pain au Chocolate, Almond Croissant, Croque Monsieur, Mad Garlic, Pandoro, Cheese Cake, Orange Pound, Wiener, Tiramisu, Meringue Cookies.
-* **Beverages:** Americano, Caffe Latte, Milk Tea, Lemon Ade, Vanila Latte, Berry Ade.
+**Key Fields Analyzed:**
+* **Temporal:** `datetime`, `day of week`, `hour`.
+* **Financial:** `total` (Total purchase amount in Korean Won).
+* **Inventory:** 31 items including Angbutter, Plain Bread, Americano, Croissants, Tiramisu, etc.
 
 ---
 
-## 📊 Live Dashboards
-I built this analysis using **Google Sheets** and **Excel** to ensure the data is easy for stakeholders to access and understand.
+## 📊 Live Analysis & Dashboards
+I utilized **Google Sheets** and **Excel** to build dynamic models for stakeholder review.
 
-👉 **[View the Live Google Sheets Analysis here](TO_BE_INSERTED)** *(Set to View-Only)*
+👉 **[View the Live Google Sheets Analysis here](YOUR_GOOGLE_SHEETS_LINK_HERE)** *(Set to View-Only)*
 
 ---
 
 ## 💡 Strategic Recommendations
-1. **Smart Inventory:** Increase Angbutter production capacity by $50\%$ on weekends to prevent stock-outs of the primary revenue driver.
-2. **Dynamic Staffing:** Shift $70\%$ of labor hours to the **$10:00$ AM – $1:00$ PM** window to handle the morning rush.
-3. **Product Bundling:** Launch a **"Morning Rush" bundle** (Angbutter + Americano) to increase the Average Order Value (AOV).
+1. **Inventory Shift:** Increase Angbutter ingredient stock by 50% for weekend service.
+2. **Staffing Pivot:** Maximize labor hours between **10:30 AM – 1:30 PM** to handle the morning rush.
+3. **Menu Bundling:** Create an "Angbutter + Hot Americano" deal to capitalize on high-volume pairings.
+4. **Investor Alignment:** Present these findings to pivot the strategy toward a balanced model that respects the investor's preference while securing profit through top-sellers.
 
 ---
 
-## 🧱 Project Structure
-```bash
-├── data/
-│   └── bakery_sales_raw.csv         # Transactional dataset
-├── analysis/
-│   └── bakery_logic_models.xlsx     # Pivot tables & trend calculations
-├── visuals/
-│   └── sales_dashboards.png         # Key visualizations
-└── README.md                        # Project documentation
+## 👤 About the Author
+**Ayushi Gajendra** *Data Analyst | Ex-Startup Co-founder*
+* **7+ Years** of experience in business operations and strategic growth.
+* I specialize in turning raw data into **clear business decisions**.
+* My goal is to help companies stop "guessing" and start growing using data.
