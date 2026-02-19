@@ -157,4 +157,4 @@ This analysis was developed as part of the **Data Analytics Foundations** course
 ---
 
 ### 🔗 Connect with me:
-[LinkedIn]((https://www.linkedin.com/in/ayushi-gajendra/))
+[LinkedIn](https://www.linkedin.com/in/ayushi-gajendra/)
