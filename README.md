@@ -67,6 +67,11 @@ https://www.kaggle.com/datasets/hosubjeong/bakery-sales/data
   * **Peak Velocity:** Data revealed a sharp peak at **11:00 AM**. 
   * **Weekly Rhythm:** Sunday is the highest-grossing day, suggesting the bakery serves as a "weekend destination" rather than just a weekday commuter stop.
   * **Recommendation:** Align labor shifts to front-load staffing between 10:00 AM and 1:30 PM.
+* **Visualizations:**
+<p align="center">
+  <img src="Total Revenue by Operating Hour (1,000s ₩).png" width="45%" /> 
+  <img src="Weekly Revenue Distribution (1,000s ₩).png" width="45%"/>
+</p>
 
 ### 📉 Product Popularity & Market Demand
 * **Objective:** Determine the most popular food and beverage items to validate product-market fit.
@@ -74,7 +79,12 @@ https://www.kaggle.com/datasets/hosubjeong/bakery-sales/data
 * **Key Findings:**
     * **Angbutter** is the top-selling food item, significantly outperforming croissants.
     * **Americanos** are the most popular beverage choice, with a clear preference for hot drinks over cold ones.
-
+* **Visualizations:**
+<p align="center">
+  <img src="Food Item Popularity.png" width="45%" /> 
+  <img src="Beverage Popularity.png" width="45%"/>
+</p
+ 
 ### 🔗 Hourly Sales Dynamics
 * **Objective:** Analyze the relationship between food and drink sales to refine afternoon strategies.
 * **Analysis:** Computed the proportion of food versus drink sales per hour to track consumption shifts.
@@ -83,7 +93,12 @@ https://www.kaggle.com/datasets/hosubjeong/bakery-sales/data
     * **Sales Decay:** Food sales decrease significantly after the morning rush.
     * **Resilient Beverages:** Drink sales remain stable, peaking again at **2:00 PM** (The "Coffee Break" surge).
     * **Strategic Pivot:** The bakery should shift from a "Food Focus" in the morning to a "Beverage Focus" in the afternoon to capture higher margins.
-
+* **Visualizations:**
+<p align="center">
+  <img src="Hourly Sales Volume.png" width="45%" /> 
+  <img src="Product Mix Dynamics.png" width="45%"/>
+</p
+ 
 ---
 
 ## 💡 Phase 4: Interpretation & Recommendations
