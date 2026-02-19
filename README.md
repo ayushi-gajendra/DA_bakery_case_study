@@ -138,3 +138,23 @@ Based on the analysis, I provided the following strategic roadmap to the stakeho
 * **Feature Engineering:** Transformed raw `datetime` strings into granular time-based features (`Hour`, `Day of Week`) to unlock operational insights.
 
 
+---
+
+## 🎓 Project Credits
+This analysis was developed as part of the **Data Analytics Foundations** course by **DeepLearning.AI** on Coursera. It demonstrates proficiency in applying statistical models and business intelligence frameworks to solve real-world problems in the **Retail and F&B domain**.
+
+---
+
+## 👤 About the Author
+**Ayushi Gajendra** 
+
+*Data Analyst | Former EdTech Co-Founder*
+
+* **7+ Years** of experience in business operations, strategic growth, and entrepreneurial leadership.
+* I specialize in bridging the gap between raw data and **high-stakes business decisions**.
+* My goal is to help organizations move beyond "gut feeling" to drive growth through evidence-based strategy.
+
+---
+
+### 🔗 Connect with me:
+[LinkedIn]((https://www.linkedin.com/in/ayushi-gajendra/))
