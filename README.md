@@ -1,10 +1,10 @@
 # 🥖 Strategic Market Expansion: South Korean Bakery Analysis
 ### *Bridging Stakeholder Intuition with Data-Driven Reality*
 
-![Excel](https://img.shields.io/badge/Tools-Excel%20|%20Google%20Sheets-green)
-![Data Analysis](https://img.shields.io/badge/Lifecycle-Full%20Data%20Analysis-blue)
-![Business Intelligence](https://img.shields.io/badge/Domain-Business%20Intelligence-orange)
-![Business Case](https://img.shields.io/badge/Industry-Retail%20&%20F&B-purple)
+![Data Analysis](https://img.shields.io/badge/Analysis-Market%20Expansion-blue?style=for-the-badge)
+![Business Intelligence](https://img.shields.io/badge/Domain-Retail%20%26%20F%26B-green?style=for-the-badge)
+![Strategic Planning](https://img.shields.io/badge/Method-Feasibility%20Analysis-orange?style=for-the-badge)
+![Tools](https://img.shields.io/badge/Tools-Google%20Sheets%20%2F%20Excel-34A853?style=for-the-badge&logo=googlesheets&logoColor=white)
 
 ---
 
